@@ -32,8 +32,12 @@ import { CommonModule } from '@angular/common';
         <p><strong>Name:</strong> [LuisRocca]</p>
         <p><strong>Email:</strong> [luis.rocca96@gmail.com]</p>
         <div class="social-links">
-          <a href="#" target="_blank">GitHub</a>
-          <a href="#" target="_blank">LinkedIn</a>
+          <a href="https://github.com/LuisRocca/amari-technical-test" target="_blank">GitHub</a>
+          <a
+            href="https://www.linkedin.com/in/luis-miguel-alfonzo-roca-software-enginer/"
+            target="_blank"
+            >LinkedIn</a
+          >
         </div>
       </section>
     </div>
