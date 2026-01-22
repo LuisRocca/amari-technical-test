@@ -1,0 +1,35 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <!-- Logo/Title -->
+    <div class="navbar-brand">
+      <h1>👥 Users App</h1>
+    </div>
+
+    <!-- Hamburger menu (mobile) -->
+    <button class="hamburger" (click)="toggleMenu()" [class.active]="isMenuOpen" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Navigation links -->
+    <ul class="navbar-menu" [class.active]="isMenuOpen">
+      <li>
+        <a
+          routerLink="/home"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          (click)="closeMenu()"
+        >
+          🏠 Home
+        </a>
+      </li>
+      <li>
+        <a routerLink="/users" routerLinkActive="active" (click)="closeMenu()"> 👥 Users </a>
+      </li>
+      <li>
+        <a routerLink="/about" routerLinkActive="active" (click)="closeMenu()"> ℹ️ About </a>
+      </li>
+    </ul>
+  </div>
+</nav>

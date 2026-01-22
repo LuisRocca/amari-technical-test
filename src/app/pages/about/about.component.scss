@@ -1,0 +1,36 @@
+// Styles are updated in pages-common.scss
+
+.avatar {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.tech-stack {
+  margin: 2rem 0;
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+    li {
+      margin: 0.5rem 0;
+    }
+  }
+}
+
+.developer {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
+}
+
+.social-links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  a {
+    color: var(--primary);
+    font-weight: 500;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
